@@ -1,0 +1,23 @@
+{
+  "name": "wip_personal-website",
+  "version": "1.0.0",
+  "description": "A personal website to provide contact details and access to projects",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/_main.scss css/style.css -w"
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiamDoyle9/WIP_personal-website.git"
+  },
+  "author": "Liam Doyle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiamDoyle9/WIP_personal-website/issues"
+  },
+  "homepage": "https://github.com/LiamDoyle9/WIP_personal-website#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
