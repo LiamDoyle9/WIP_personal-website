@@ -21,7 +21,6 @@
   }
   &__icons {
     position: relative;
-
     width: 50%;
     top: 55%;
     left: 50%;
@@ -32,8 +31,8 @@
       padding: 2rem;
       width: 5rem;
       border-radius: 0.2rem;
-      transition: all 0.2s;
       outline-offset: 0.1rem;
+      animation: moveInBottomFar 1s ease-out;
 
       &:hover {
         outline: 0.5rem solid $color-white;
@@ -41,5 +40,14 @@
         box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
       }
     }
+  }
+
+  &__cv {
+    position: relative;
+    width: 25%;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
 }
