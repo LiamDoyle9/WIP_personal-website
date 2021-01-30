@@ -19,25 +19,30 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
   &__icons {
     position: relative;
     width: 50%;
-    top: 55%;
+
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
+
+    :not(:first-child) {
+      padding-left: 1rem;
+    }
 
     img {
-      padding: 2rem;
-      width: 5rem;
+      width: 2.5rem;
       border-radius: 0.2rem;
       outline-offset: 0.1rem;
       animation: moveInBottomFar 1s ease-out;
 
       &:hover {
-        outline: 0.5rem solid $color-white;
+        outline: 0.2rem solid $color-white;
         transform: scale(1.1);
         box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
+        transition: all 0.5s;
       }
     }
   }

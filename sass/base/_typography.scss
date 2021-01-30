@@ -8,24 +8,30 @@ body {
 
 .heading-primary {
   color: $color-white;
-  text-transform: uppercase;
-  backface-visibility: hidden;
-  margin-bottom: 6rem;
+
+  &--tiny {
+    display: block;
+    font-weight: 300;
+    text-align: left;
+  }
+
   &--main {
     display: block;
     font-size: 6rem;
     font-weight: 400;
-    letter-spacing: 3.5rem;
-
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1rem;
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
   }
   &--sub {
     display: block;
+    width: 75%;
     font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 1.75rem;
+    font-weight: 300;
+    text-align: left;
     animation: moveInRight 1s ease-out;
   }
 }
